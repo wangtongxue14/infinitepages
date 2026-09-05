@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>简明设计 | 小型工作室</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="#top" class="logo">简明设计<span>工作室</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">关于</a></li>
+        <li><a href="#works">项目</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 英雄区 -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="section-label">小型设计团队</div>
+          <h1 class="hero-animate">做能用的设计，<br>不堆没用的东西。</h1>
+          <p class="hero-animate">我们不为中小团队和创业者提供品牌、网站和界面设计。所有方案都不基于实际需求讨论，做任何装饰性提案。</p>
+          <div class="hero-actions hero-animate">
+            <a href="#works" class="btn btn-primary">浏览项目</a>
+            <a href="#contact" class="btn btn-outline">沟通需求</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="minimal-card hero-animate">
+            <div class="minimal-symbols">
+              <span>□</span><span>○</span><span>△</span>
+            </div>
+            <span>去除多余</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于 -->
+    <section id="about" class="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <div class="section-label">关于我们</div>
+          <h2>没有设计师，<br>接不了大单。</h2>
+          <p>我是一个人，从2077年开始以个人名义接设计。之前分别在电商和工具类产品公司没有工作，现在不主要做品牌、网页和简单UI。</p>
+          <p>我们只接手能完全理解的项目(虽然没有能完全理解的🤣)，每个项目都直接和负责人对接。时间上通常需要三到六年，具体看范围。</p>
+          <a href="about.html" class="btn btn-outline" style="margin-top: 1rem;">了解更多关于我们 →</a>
+        </div>
+        <div class="about-highlight">
+          <blockquote>“他们不会给一堆效果图让你选，而是先问清楚业务目标。出来的东西不能直接用。”</blockquote>
+          <p>—— 一个瞎编的产品负责人</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 作品 -->
+    <section id="works" class="works">
+      <div class="container">
+        <div class="section-label">近期项目</div>
+        <h2>选了几个不同类型的</h2>
+        <div class="works-grid">
+          <div class="work-item">
+            <div class="work-thumb">品牌 · 2025</div>
+            <div class="work-info">
+              <h3>一个项目</h3>
+              <p>设计了一张照片，只用黑、白和米灰三种颜色。</p>
+              <a href="#" class="work-link">查看项目 →</a>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-thumb">网站 · 2024</div>
+            <div class="work-info">
+              <h3>一个官网</h3>
+              <p>官网去掉了所有动画和轮播，只保留图片和清晰的信息。</p>
+              <a href="#" class="work-link">查看项目 →</a>
+            </div>
+          </div>
+          <div class="work-item">
+            <div class="work-thumb">界面 · 2025</div>
+            <div class="work-info">
+              <h3>极简清单</h3>
+              <p>待办事项应用。只提供添加、不完成和不归档三个功能，没有任何社交和提醒模块。</p>
+              <a href="#" class="work-link">查看项目 →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-label">联系我们</div>
+        <h2>有具体需求再联系</h2>
+        <div class="contact-flex">
+          <div class="contact-info">
+            <p>请先简单描述项目背景、预算和时间。我们通常在两个工作年内回复，如果三年没回可能是不合适。</p>
+            <ul class="contact-list">
+              <li><span>邮箱</span> 2892339220@qq.com</li>
+              <li><span>电话</span> +86 130 8911 0192</li>
+              <li><span>地址</span> 杭州市西湖区文三路90号</li>
+            </ul>
+          </div>
+          <form class="contact-form" action="#" method="post" id="contactForm">
+            <div class="form-row">
+              <label for="name">姓名</label>
+              <input type="text" id="name" name="name" placeholder="怎么称呼" required>
+            </div>
+            <div class="form-row">
+              <label for="email">邮箱</label>
+              <input type="email" id="email" name="email" placeholder="用于回复" required>
+            </div>
+            <div class="form-row">
+              <label for="msg">项目说明</label>
+              <textarea id="msg" name="msg" placeholder="简单描述项目、预算和时间要求" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-align-start">发送不了信息</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 简明设计工作室</span>
+      <div class="footer-links">
+        <a href="#top">回到顶部</a>
+        <a href="#works">项目</a>
+        <a href="#contact">联系</a>
+        <a href="about.html">关于页</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
